@@ -1,5 +1,5 @@
 {
-  "name": "react-base",
+  "name": "react-twist-base",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack",
@@ -30,6 +30,7 @@
     "babel-plugin-transform-react-display-name": "^6.25.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.6.1",
+    "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   }

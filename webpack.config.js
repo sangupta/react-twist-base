@@ -10,7 +10,7 @@ module.exports = {
   context: __dirname,
 
   entry: {
-    app: [ './src/App.jsx', 'react-hot-loader/patch' ],
+    app: [ 'src/App.jsx', 'react-hot-loader/patch' ],
     vendor: [ "react", "react-dom" ]
   },
 
@@ -29,7 +29,7 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: ['babel-loader']
+        loader: ['babel-loader']
       }
     ]
   },
@@ -55,7 +55,7 @@ module.exports = {
     }),
     new ReactTwistPlugin(),
     new webpack.HotModuleReplacementPlugin(),
-    new HtmlWebpackPlugin({ title: 'React Base', template: 'src/index.ejs', inject : 'body'  })
+    new HtmlWebpackPlugin({ title: 'React Twist Base', template: 'src/index.ejs', inject : 'body'  })
   ]
 
 };
