@@ -6,7 +6,7 @@ class App {
 
     @Observable title = 'Hello World';
 
-    attached() {
+    componentDidMount() {
         setTimeout(this.changeTitle, 1000);
     }
 
@@ -22,5 +22,4 @@ class App {
 }
 
 ReactDOM.render( <App />, document.getElementById('appRoot') );
-
 module.hot.accept();

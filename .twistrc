@@ -1,25 +1,5 @@
 {
     "libraries": [
-        "@twist/core",
         "@twist/react"
-    ],
-    "decorators": [
-        "Attribute",
-        "Abstract",
-        "Action",
-        "Bind",
-        "Cache",
-        "Debounce",
-        "Delay",
-        "Memoize",
-        "Observable",
-        "Prototype",
-        "State",
-        [ "Store", { "inherits": "BaseStore" } ],
-        "Task",
-        "Throttle",
-        "Wrap",
-        [ "Component", { "inherits": "BaseComponent" } ],
-        [ "VirtualComponent", { "export": "Component", "inherits": "BaseVirtualComponent" } ]
     ]
 }

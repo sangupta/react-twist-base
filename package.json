@@ -2,9 +2,9 @@
   "name": "react-twist-base",
   "version": "1.0.0",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --color --display-error-details",
     "build-production": "NODE_ENV=production npm run build",
-    "watch": "webpack-dev-server --hot --progress"
+    "watch": "webpack-dev-server --hot --watch-content-base"
   },
   "babel": {
     "presets": [

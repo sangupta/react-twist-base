@@ -10,7 +10,7 @@ module.exports = {
   context: __dirname,
 
   entry: {
-    app: [ 'src/App.jsx', 'react-hot-loader/patch' ],
+    app: [ './src/App.jsx', 'react-hot-loader/patch' ],
     vendor: [ "react", "react-dom" ]
   },
 
